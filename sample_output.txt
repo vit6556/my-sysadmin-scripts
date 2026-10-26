@@ -1,0 +1,24 @@
+--- 2026-10-26 15:33:10 ---
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi        12Gi       7.0Gi       2.3Mi        11Gi        17Gi
+Swap:             0B          0B          0B
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              3.1G  2.3M  3.1G   1% /run
+efivarfs                           256K   47K  205K  19% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv  232G   74G  148G  34% /
+tmpfs                               16G     0   16G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                               16G  4.0K   16G   1% /tmp
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-udev-load-credentials.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev-early.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-sysctl.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev.service
+/dev/nvme0n1p2                     2.0G  262M  1.6G  15% /boot
+/dev/nvme0n1p1                     1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+ 15:33:10 up 27 days, 24 min,  0 user,  load average: 0.04, 0.10, 0.15
+
