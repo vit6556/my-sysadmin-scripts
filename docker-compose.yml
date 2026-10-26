@@ -1,0 +1,9 @@
+services:
+  app:
+    image: sysadmin-hw2:web
+    container_name: sysadmin-hw2-app
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ../hw2-lab/lvm-mnt/monitor.log:/var/www/monitor.log
+    restart: "no"
